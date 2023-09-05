@@ -1,13 +1,7 @@
-import Counter from "./components/Counter"
+import Router from "./router"
 
 function App() {
-  return (
-    <>
-      <Counter initialValue={0} />
-    </>
-  )
+  return <Router />
 }
-
-// Counter({initialValue: 0})
 
 export default App
